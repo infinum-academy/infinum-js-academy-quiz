@@ -1,0 +1,11 @@
+.quiz-wrapper {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 24px;
+
+	.actions {
+		display: flex;
+		justify-content: flex-end;
+		margin-top: 24px;
+	}
+}

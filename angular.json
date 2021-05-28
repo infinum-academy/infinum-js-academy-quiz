@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "infinum-js-academy-survey": {
+    "infinum-js-academy-quiz": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/infinum-js-academy-survey",
+            "outputPath": "dist/infinum-js-academy-quiz",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "infinum-js-academy-survey:build:production"
+              "browserTarget": "infinum-js-academy-quiz:build:production"
             },
             "development": {
-              "browserTarget": "infinum-js-academy-survey:build:development"
+              "browserTarget": "infinum-js-academy-quiz:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "infinum-js-academy-survey:build"
+            "browserTarget": "infinum-js-academy-quiz:build"
           }
         },
         "test": {
@@ -107,5 +107,5 @@
       }
     }
   },
-  "defaultProject": "infinum-js-academy-survey"
+  "defaultProject": "infinum-js-academy-quiz"
 }

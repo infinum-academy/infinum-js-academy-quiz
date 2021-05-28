@@ -1,0 +1,31 @@
+<p class="question-type-title">{{ questionTypeData[questionType].label }}</p>
+<p
+	*ngIf="quizResultItem.answered; else notAnsweredTemplate"
+	class="result-description"
+>
+	You have answered {{ quizResultItem.answered }} of
+	{{ quizResultItem.total }} questions of which
+	{{ quizResultItem.answeredCorrectly }} correctly.
+</p>
+
+<ng-template #notAnsweredTemplate>
+	<p class="result-description">
+		You have not answered any questions regarding this topic.
+	</p>
+</ng-template>
+
+<div class="result-graph">
+	<mat-progress-bar
+		color="warn"
+		mode="determinate"
+		[value]="
+			calculateProgress(quizResultItem.answeredCorrectly, quizResultItem.total)
+		"
+	></mat-progress-bar>
+
+	<div class="percentage">
+		{{
+			calculateProgress(quizResultItem.answeredCorrectly, quizResultItem.total)
+		}}%
+	</div>
+</div>

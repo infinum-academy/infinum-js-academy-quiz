@@ -1,0 +1,39 @@
+<app-header></app-header>
+
+<ng-container *ngIf="quizResult; else noResultsTemplate">
+	<h2>Quiz results</h2>
+	<p>Congratulations! You have finished this quiz. Here are your results:</p>
+
+	<div class="quiz-results">
+		<ng-container *ngFor="let type of questionTypes">
+			<app-quiz-result-item
+				[questionType]="type"
+				[quizResultItem]="quizResult[type]"
+			></app-quiz-result-item>
+		</ng-container>
+	</div>
+
+	<h2>Next steps</h2>
+	<p>
+		Got few questions wrong? Are you interested how apps are made in Infinum?
+		Take a look at the <a href="" target="_blank">quiz source code</a>, clone it
+		and play around with it. Explore it and you will find all the answers!
+	</p>
+	<p>
+		If you want to know more take a look at this
+		<a
+			href="https://www.freecodecamp.org/news/the-beginners-guide-to-git-github/"
+			target="_blank"
+			>Git</a
+		>
+		and
+		<a href="https://www.youtube.com/watch?v=PkZNo7MFNFg" target="_blank"
+			>JavaScript</a
+		>
+		tutorials.
+	</p>
+</ng-container>
+
+<ng-template #noResultsTemplate>
+	<p>Please answer at least one question to view results.</p>
+</ng-template>

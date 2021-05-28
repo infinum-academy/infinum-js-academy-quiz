@@ -1,0 +1,16 @@
+<p class="number">
+	Question {{ questionIndex + 1 }} of {{ numberOfQuestions }}
+</p>
+<h2>{{ question.title }}</h2>
+
+<mat-radio-group>
+	<mat-radio-button
+		*ngFor="let answer of question.possibleAnswers"
+		color="warn"
+		class="answer"
+		[value]="answer.id"
+		(change)="onAnswerSelect($event)"
+	>
+		{{ answer.title }}
+	</mat-radio-button>
+</mat-radio-group>

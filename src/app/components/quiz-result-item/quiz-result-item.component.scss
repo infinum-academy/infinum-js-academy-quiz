@@ -1,0 +1,22 @@
+.question-type-title {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.result-description {
+	margin-bottom: 0px;
+}
+
+.result-graph {
+	display: flex;
+	align-items: center;
+	margin-bottom: 16px;
+
+	.percentage {
+		width: 140px;
+		text-align: right;
+		font-weight: bold;
+		font-size: 28px;
+	}
+}
