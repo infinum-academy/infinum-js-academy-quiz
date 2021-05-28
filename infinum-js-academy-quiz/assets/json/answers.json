@@ -1,0 +1,84 @@
+{
+	"answers": [
+		{
+			"questionId": "Q1",
+			"answerId": "A2"
+		},
+		{
+			"questionId": "Q2",
+			"answerId": "A4"
+		},
+		{
+			"questionId": "Q3",
+			"answerId": "A4"
+		},
+		{
+			"questionId": "Q4",
+			"answerId": "A3"
+		},
+		{
+			"questionId": "Q5",
+			"answerId": "A1"
+		},
+		{
+			"questionId": "Q6",
+			"answerId": "A1"
+		},
+		{
+			"questionId": "Q7",
+			"answerId": "A3"
+		},
+		{
+			"questionId": "Q8",
+			"answerId": "A2"
+		},
+		{
+			"questionId": "Q9",
+			"answerId": "A4"
+		},
+		{
+			"questionId": "Q10",
+			"answerId": "A3"
+		},
+		{
+			"questionId": "Q11",
+			"answerId": "A1"
+		},
+		{
+			"questionId": "Q12",
+			"answerId": "A3"
+		},
+		{
+			"questionId": "Q13",
+			"answerId": "A3"
+		},
+		{
+			"questionId": "Q14",
+			"answerId": "A4"
+		},
+		{
+			"questionId": "Q15",
+			"answerId": "A1"
+		},
+		{
+			"questionId": "Q16",
+			"answerId": "A4"
+		},
+		{
+			"questionId": "Q17",
+			"answerId": "A1"
+		},
+		{
+			"questionId": "Q18",
+			"answerId": "A3"
+		},
+		{
+			"questionId": "Q19",
+			"answerId": "A2"
+		},
+		{
+			"questionId": "Q20",
+			"answerId": "A1"
+		}
+	]
+}
