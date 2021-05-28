@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build:prod": "ng build --baseHref=https://infinum-academy.github.io/infinum-js-academy-quiz/",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "private": true,
   "dependencies": {
