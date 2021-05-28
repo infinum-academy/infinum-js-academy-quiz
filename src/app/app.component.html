@@ -1,6 +1,6 @@
 <ng-container *ngIf="questions$ | async as questions">
 	<mat-progress-bar
-		color="warn"
+		color="primary"
 		mode="determinate"
 		[value]="calculateProgress(questions.length, selectedAnswers.length)"
 	></mat-progress-bar>

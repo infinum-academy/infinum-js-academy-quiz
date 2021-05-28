@@ -6,7 +6,7 @@
 <mat-radio-group>
 	<mat-radio-button
 		*ngFor="let answer of question.possibleAnswers"
-		color="warn"
+		color="primary"
 		class="answer"
 		[value]="answer.id"
 		(change)="onAnswerSelect($event)"
