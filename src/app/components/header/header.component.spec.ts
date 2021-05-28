@@ -26,7 +26,7 @@ describe('HeaderComponent', () => {
 		const element: HTMLImageElement = fixture.debugElement.query(
 			By.css('img')
 		).nativeElement;
-		expect(element.src).toContain('./assets/img/academy-logo.svg');
+		expect(element.src).toContain('assets/img/academy-logo.svg');
 	});
 
 	it('should contain alt text in image', () => {
