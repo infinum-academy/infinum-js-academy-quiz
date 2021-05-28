@@ -30,9 +30,8 @@ $infinum-js-academy-quiz-typography: mat.define-typography-config(
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$infinum-js-academy-quiz-primary: mat.define-palette(mat.$indigo-palette);
-$infinum-js-academy-quiz-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
-$infinum-js-academy-quiz-warn: mat.define-palette(mat.$red-palette);
+$infinum-js-academy-quiz-primary: mat.define-palette(mat.$amber-palette);
+$infinum-js-academy-quiz-accent: mat.define-palette(mat.$indigo-palette);
 
 
 // Create the theme object. A theme consists of configurations for individual
@@ -41,7 +40,6 @@ $infinum-js-academy-quiz-theme: mat.define-light-theme((
   color: (
     primary: $infinum-js-academy-quiz-primary,
     accent: $infinum-js-academy-quiz-accent,
-    warn: $infinum-js-academy-quiz-warn,
   ),
 ));
 

@@ -57,15 +57,15 @@
 				},
 				{
 					"id": "A2",
-					"title": "By adding all changes and staging them with git stage"
+					"title": "By creating a new branch with git checkout"
 				},
 				{
 					"id": "A3",
-					"title": "By adding all changes and staging them with git add"
+					"title": "By creating a new project with git init"
 				},
 				{
 					"id": "A4",
-					"title": "By committing the staged changes with git commit"
+					"title": "By creating a new commit with git commit"
 				}
 			]
 		},
@@ -132,7 +132,7 @@
 		},
 		{
 			"id": "Q7",
-			"title": "Which command is the opposite of git clone, that uploads your changes and code back to GitHub instead of downloading your code from GitHub?",
+			"title": "How would you upload new commited changes to a remote repository?",
 			"type": "GIT",
 			"possibleAnswers": [
 				{
@@ -155,47 +155,47 @@
 		},
 		{
 			"id": "Q8",
-			"title": "What is the correct commit syntax for all changes with a message?",
+			"title": "What is the correct commit syntax for commiting changes with a message?",
 			"type": "GIT",
 			"possibleAnswers": [
 				{
 					"id": "A1",
-					"title": "git commit -a \"Your commit message\""
+					"title": "git commit -c \"Your commit message\""
 				},
 				{
 					"id": "A2",
-					"title": "git commit -am \"Your commit message\""
+					"title": "git commit -m \"Your commit message\""
 				},
 				{
 					"id": "A3",
-					"title": "git message -am \"Your commit message\""
+					"title": "git message -c \"Your commit message\""
 				},
 				{
 					"id": "A4",
-					"title": "git add -a \"Your commit message\""
+					"title": "git message -m \"Your commit message\""
 				}
 			]
 		},
 		{
 			"id": "Q9",
-			"title": "After pushing a branch to remote repository on GitHub, what do you need to create to add your changes to your project?",
+			"title": "What do you need to do to merge feature branch to master branch?",
 			"type": "GIT",
 			"possibleAnswers": [
 				{
 					"id": "A1",
-					"title": "New branch"
+					"title": "Create a new branch"
 				},
 				{
 					"id": "A2",
-					"title": "New push"
+					"title": "Create a new push to feature branch"
 				},
 				{
 					"id": "A3",
-					"title": "New commit"
+					"title": "Create a new commit on master branch"
 				},
 				{
 					"id": "A4",
-					"title": "New pull request"
+					"title": "Open a pull request from feature branch targeting master branch"
 				}
 			]
 		},
