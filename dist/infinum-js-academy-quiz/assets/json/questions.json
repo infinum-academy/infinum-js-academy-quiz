@@ -1,0 +1,448 @@
+{
+	"questions": [
+		{
+			"id": "Q1",
+			"title": "What's the git command that downloads your repository from GitHub to your computer?",
+			"type": "GIT",
+			"possibleAnswers": [
+				{
+					"id": "A1",
+					"title": "git fork"
+				},
+				{
+					"id": "A2",
+					"title": "git clone"
+				},
+				{
+					"id": "A3",
+					"title": "git push"
+				},
+				{
+					"id": "A4",
+					"title": "git commit"
+				}
+			]
+		},
+		{
+			"id": "Q2",
+			"title": "How do you check the state of your local git repository since your last commit?",
+			"type": "GIT",
+			"possibleAnswers": [
+				{
+					"id": "A1",
+					"title": "git check"
+				},
+				{
+					"id": "A2",
+					"title": "git commit"
+				},
+				{
+					"id": "A3",
+					"title": "git diff"
+				},
+				{
+					"id": "A4",
+					"title": "git status"
+				}
+			]
+		},
+		{
+			"id": "Q3",
+			"title": "How do you save the current state of your code into the git version control?",
+			"type": "GIT",
+			"possibleAnswers": [
+				{
+					"id": "A1",
+					"title": "By creating a new commit with git init"
+				},
+				{
+					"id": "A2",
+					"title": "By adding all changes and staging them with git stage"
+				},
+				{
+					"id": "A3",
+					"title": "By adding all changes and staging them with git add"
+				},
+				{
+					"id": "A4",
+					"title": "By committing the staged changes with git commit"
+				}
+			]
+		},
+		{
+			"id": "Q4",
+			"title": "If you want to make radical changes to your team’s project and don’t want to impact the rest of the team, you should implement your changes in",
+			"type": "GIT",
+			"possibleAnswers": [
+				{
+					"id": "A1",
+					"title": "The root of project"
+				},
+				{
+					"id": "A2",
+					"title": "A new tag"
+				},
+				{
+					"id": "A3",
+					"title": "A new branch"
+				},
+				{
+					"id": "A4",
+					"title": "A staged file"
+				}
+			]
+		},
+		{
+			"id": "Q5",
+			"title": "What comes first, staging with git add . or committing with git commit",
+			"type": "GIT",
+			"possibleAnswers": [
+				{
+					"id": "A1",
+					"title": "Staging your commits with git add"
+				},
+				{
+					"id": "A2",
+					"title": "Committing with git commit"
+				}
+			]
+		},
+		{
+			"id": "Q6",
+			"title": "How can you create a branch and switch to it directly?",
+			"type": "GIT",
+			"possibleAnswers": [
+				{
+					"id": "A1",
+					"title": "git checkout -b <branch-name>"
+				},
+				{
+					"id": "A2",
+					"title": "git branch --switch <branch-name>"
+				},
+				{
+					"id": "A3",
+					"title": "git branch --checkout <branch-name>"
+				},
+				{
+					"id": "A4",
+					"title": "git checkout --create-branch <branch-name>"
+				}
+			]
+		},
+		{
+			"id": "Q7",
+			"title": "Which command is the opposite of git clone, that uploads your changes and code back to GitHub instead of downloading your code from GitHub?",
+			"type": "GIT",
+			"possibleAnswers": [
+				{
+					"id": "A1",
+					"title": "git upload"
+				},
+				{
+					"id": "A2",
+					"title": "git add"
+				},
+				{
+					"id": "A3",
+					"title": "git push"
+				},
+				{
+					"id": "A4",
+					"title": "git status"
+				}
+			]
+		},
+		{
+			"id": "Q8",
+			"title": "What is the correct commit syntax for all changes with a message?",
+			"type": "GIT",
+			"possibleAnswers": [
+				{
+					"id": "A1",
+					"title": "git commit -a \"Your commit message\""
+				},
+				{
+					"id": "A2",
+					"title": "git commit -am \"Your commit message\""
+				},
+				{
+					"id": "A3",
+					"title": "git message -am \"Your commit message\""
+				},
+				{
+					"id": "A4",
+					"title": "git add -a \"Your commit message\""
+				}
+			]
+		},
+		{
+			"id": "Q9",
+			"title": "After pushing a branch to remote repository on GitHub, what do you need to create to add your changes to your project?",
+			"type": "GIT",
+			"possibleAnswers": [
+				{
+					"id": "A1",
+					"title": "New branch"
+				},
+				{
+					"id": "A2",
+					"title": "New push"
+				},
+				{
+					"id": "A3",
+					"title": "New commit"
+				},
+				{
+					"id": "A4",
+					"title": "New pull request"
+				}
+			]
+		},
+		{
+			"id": "Q10",
+			"title": "How can you add changes from your branch called feature to the main branch called master?",
+			"type": "GIT",
+			"possibleAnswers": [
+				{
+					"id": "A1",
+					"title": "Navigate to feature branch and executing \"git merge master\""
+				},
+				{
+					"id": "A2",
+					"title": "Navigate to feature branch and executing \"git join master\""
+				},
+				{
+					"id": "A3",
+					"title": "Navigate to master branch and executing \"git merge feature\""
+				},
+				{
+					"id": "A4",
+					"title": "Navigate to master branch and executing \"git join feature\""
+				}
+			]
+		},
+		{
+			"id": "Q11",
+			"title": "How do you create a function called \"myFunction\" in JavaScript?",
+			"type": "JS",
+			"possibleAnswers": [
+				{
+					"id": "A1",
+					"title": "function myFunction()"
+				},
+				{
+					"id": "A2",
+					"title": "function = myFunction()"
+				},
+				{
+					"id": "A3",
+					"title": "myFunction();"
+				},
+				{
+					"id": "A4",
+					"title": "const function = myFunction()"
+				}
+			]
+		},
+		{
+			"id": "Q12",
+			"title": "How do you execute a function called \"myFunction\" in JavaScript?",
+			"type": "JS",
+			"possibleAnswers": [
+				{
+					"id": "A1",
+					"title": "function myFunction();"
+				},
+				{
+					"id": "A2",
+					"title": "execute function myFunction();"
+				},
+				{
+					"id": "A3",
+					"title": "myFunction();"
+				},
+				{
+					"id": "A4",
+					"title": "call function myFunction;"
+				}
+			]
+		},
+		{
+			"id": "Q13",
+			"title": "How to write an IF statement in JavaScript?",
+			"type": "JS",
+			"possibleAnswers": [
+				{
+					"id": "A1",
+					"title": "if i === 5 then"
+				},
+				{
+					"id": "A2",
+					"title": "if (i === 5) then"
+				},
+				{
+					"id": "A3",
+					"title": "if (i === 5)"
+				},
+				{
+					"id": "A4",
+					"title": "if {i === 5}"
+				}
+			]
+		},
+		{
+			"id": "Q14",
+			"title": "How can you add a comment in a JavaScript?",
+			"type": "JS",
+			"possibleAnswers": [
+				{
+					"id": "A1",
+					"title": "{{ This is a comment. }}"
+				},
+				{
+					"id": "A2",
+					"title": "\"This is a comment.\""
+				},
+				{
+					"id": "A3",
+					"title": "<!-- This is a comment. -->"
+				},
+				{
+					"id": "A4",
+					"title": "// This is a comment."
+				}
+			]
+		},
+		{
+			"id": "Q15",
+			"title": "What is the correct way to write a JavaScript array?",
+			"type": "JS",
+			"possibleAnswers": [
+				{
+					"id": "A1",
+					"title": "const animals = [\"dog\", \"cat\", \"mouse\"];"
+				},
+				{
+					"id": "A2",
+					"title": "const animals = (\"dog\", \"cat\", \"mouse\");"
+				},
+				{
+					"id": "A3",
+					"title": "const animals = \"dog\", \"cat\", \"mouse\";"
+				},
+				{
+					"id": "A4",
+					"title": "const animals = {\"dog\", \"cat\", \"mouse\"};"
+				}
+			]
+		},
+		{
+			"id": "Q16",
+			"title": "What is the correct way to write a JavaScript object?",
+			"type": "JS",
+			"possibleAnswers": [
+				{
+					"id": "A1",
+					"title": "const mouse = { \"jerry\" };"
+				},
+				{
+					"id": "A2",
+					"title": "const mouse = [ name: \"jerry\" ];"
+				},
+				{
+					"id": "A3",
+					"title": "const mouse = ( name: \"jerry\" );"
+				},
+				{
+					"id": "A4",
+					"title": "const mouse = { name: \"jerry\" };"
+				}
+			]
+		},
+		{
+			"id": "Q17",
+			"title": "Is JavaScript case-sensitive?",
+			"type": "JS",
+			"possibleAnswers": [
+				{
+					"id": "A1",
+					"title": "Yes"
+				},
+				{
+					"id": "A2",
+					"title": "No"
+				}
+			]
+		},
+		{
+			"id": "Q18",
+			"title": "Which built-in method will add newItem to the existingArray?",
+			"type": "JS",
+			"possibleAnswers": [
+				{
+					"id": "A1",
+					"title": "existingArray.map(newItem)"
+				},
+				{
+					"id": "A2",
+					"title": "existingArray.pop(newItem)"
+				},
+				{
+					"id": "A3",
+					"title": "existingArray.push(newItem)"
+				},
+				{
+					"id": "A4",
+					"title": "existingArray.merge(newItem)"
+				}
+			]
+		},
+		{
+			"id": "Q19",
+			"title": "Which built-in method will create a new array with the results of calling a provided function on every element in this array?",
+			"type": "JS",
+			"possibleAnswers": [
+				{
+					"id": "A1",
+					"title": "const names = people.forEach(item => item.name);"
+				},
+				{
+					"id": "A2",
+					"title": "const names = people.map(item => item.name);"
+				},
+				{
+					"id": "A3",
+					"title": "const names = people.reduce(item => item.name);"
+				},
+				{
+					"id": "A4",
+					"title": "const names = people.slice(item => item.name);"
+				}
+			]
+		},
+		{
+			"id": "Q20",
+			"title": "Which built-in method will create a new array with items which satisfy some condition?",
+			"type": "JS",
+			"possibleAnswers": [
+				{
+					"id": "A1",
+					"title": "const peopleOlderThan18 = people.filter(person => person.age > 18);"
+				},
+				{
+					"id": "A2",
+					"title": "const peopleOlderThan18 = people.map(person => person.age > 18);"
+				},
+				{
+					"id": "A3",
+					"title": "const peopleOlderThan18 = people.reduce(person => person.age > 18);"
+				},
+				{
+					"id": "A4",
+					"title": "const peopleOlderThan18 = people.join(person => person.age > 18);"
+				}
+			]
+		}
+	]
+}
